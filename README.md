@@ -13,13 +13,19 @@
 -Base URL: All API endpoints start with the base URL: http://13.239.112.215:6969/api/ or http://ec2-13-239-112-215.ap-southeast-2.compute.amazonaws.com:6969/api/ Append the desired endpoint to this URL to make requests.<br>
 -Request Format: All requests must be made using the HTTP protocol. The API accepts requests in JSON format.<br>
 <h1>END POINT</h1>
-1. Artists
+<h1>ARTIST</h1><br>
 GET http://13.239.112.215:6969/api/all: Retrieve a list of Kpop artists.<br>
-GET http://13.239.112.215:6969/api/all{id}: Get detailed information about a specific artist.<br>
+GET http://13.239.112.215:6969/api/all{id} / http://13.239.112.215:6969/api/all?id=1  : Get detailed information about a specific artist.<br>
 
 <h1>Girlgroup</h1>
+GET http://13.239.112.215:6969/api/girlgroup: Retrieve a list of twice artists.<br>
+GET http://13.239.112.215:6969/api/girlgroup{id}: Get detailed information about a specific artist.<br>
+<h1>Twice</h1>
 GET http://13.239.112.215:6969/api/twice: Retrieve a list of twice artists.<br>
 GET http://13.239.112.215:6969/api/twice{id}: Get detailed information about a specific artist.<br>
+<h1>NMIXX</h1>
+GET http://13.239.112.215:6969/api/nmixx: Retrieve a list of twice artists.<br>
+GET http://13.239.112.215:6969/api/nmixx{id}: Get detailed information about a specific artist.<br>
 <h1>NOTE:</h1>
 This project is currently under development, and we are continuously working 
 to enhance and expand its features. Stay tuned for future updates and improvements!
